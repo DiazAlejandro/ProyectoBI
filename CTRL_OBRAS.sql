@@ -10,7 +10,7 @@ CREATE TABLE cliente (
 	telefono  VARCHAR(10) NOT NULL,
 	correo_e  VARCHAR(25) NOT NULL,
 	fecha_registro DATE NOT NULL,
-	UNIQUE (correo_e),
+	UNIQUE (correo_e)
 );
 
 -- Tabla material
